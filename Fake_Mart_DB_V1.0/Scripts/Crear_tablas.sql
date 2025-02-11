@@ -49,3 +49,12 @@ CREATE TABLE IF NOT EXISTS PROVEEDORES (
     Direccion_empresa TEXT,
     Responsable TEXT
  );
+
+--Sentencia 06: Crear la tabla PROVEEDORES_PRODUCTOS
+CREATE TABLE IF NOT EXISTS PROVEEDORES_PRODUCTOS(
+    Id_proveedor INTEGER,
+    Id_producto INTEGER,
+    PRIMARY KEY (Id_proveedor, Id_producto),
+    FOREIGN KEY (Id_proveedor) REFERENCES PROVEEDORES(Id_proveedor),
+    FOREIGN KEY (Id_producto) REFERENCES PRODUCTO(Id_producto)
+);
