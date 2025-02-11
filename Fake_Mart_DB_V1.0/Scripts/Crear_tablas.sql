@@ -39,3 +39,13 @@ CREATE TABLE IF NOT EXISTS INVENTARIO (
     Estatus TEXT,
     FOREIGN KEY (Id_producto) REFERENCES PRODUCTO(Id_producto)
 );
+
+--Sentencia 05: Crear tabla 'PROVEEDORES'
+CREATE TABLE IF NOT EXISTS PROVEEDORES (
+    Id_proveedor INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nombre_proveedor TEXT NOT NULL,
+    R_F_C TEXT,
+    Telefono_proveedor TEXT,
+    Direccion_empresa TEXT,
+    Responsable TEXT
+ );
