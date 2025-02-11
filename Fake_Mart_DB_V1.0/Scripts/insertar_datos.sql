@@ -35,3 +35,12 @@ VALUES
       (2, 2),
       (2, 5),
       (3, 3);
+
+--Sentencia 05: Insertar inventario 
+INSERT INTO INVENTARIO (Id_producto, Cantidad, Estatus)
+VALUES
+      (1, 50, 'Disponible'),
+      (2, 30, 'Disponible'),
+      (3, 20, 'Disponible'),
+      (4, 40, 'Disponible'),
+      (5, 25, 'Disponible'); 
