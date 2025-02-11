@@ -25,4 +25,13 @@ VALUES
       ('Distribuidora Lácteos S.A.', 'DLSA123456789', '555-1111', 'Calle Lácteos 789', 'Roberto Gómez'),
       ('Panadrería El Buen Pan', 'PEBP987654321', '555-2222','Avenida Pan 456', 'Laura Martínez'),
       ('Jugos Naturales S.A.', 'JNSA456789123', '555-333', 'Avenida Jugos 123', 'Carlos Ramírez');
-      
+
+
+--Sentencia 04: Insertar relaciones entre proveedores y productos
+INSERT INTO PROVEEDORES_PRODUCTOS (Id_proveedor, Id_producto)
+VALUES
+      (1, 1),
+      (1, 4),
+      (2, 2),
+      (2, 5),
+      (3, 3);
