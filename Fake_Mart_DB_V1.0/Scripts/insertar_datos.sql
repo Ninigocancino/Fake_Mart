@@ -8,3 +8,13 @@ VALUES
       ('Luisa Sandoval Saravia','Calle Azucenas 345','933-666-3333','luisa@fake.com'),
       ('Santiago Peregrino Mendez','Calle mirandas 124', '933-345-7890','santiago@fake.com'),
       ('Armando Casa Palacios', 'Calle Hojaldras 129', '933-888-9999','armando@fake.com');
+
+
+--Sentencia 02: Insertar productos
+INSERT INTO PRODUCTO('Nombre_producto', 'Precio_producto', 'Categoria', 'Distribuidor')
+VALUES
+     ('Leche entera 1L', 25.50, 'Lácteos', 'Distribuidora Lácteos S.A.' ),
+     ('Pan integral', 15.00, 'Panadería', 'Panadería El Buen Pan'),
+     ('Jugo de naranja 1L', 30.00, 'Bebidas', 'Jugos Naturales S.A.'),
+     ('Yocur natural', 12.00, 'Lácteos', 'Distribuidora Lácteos S.A.'),
+     ('Galleta de avena', 18.00, 'Panadería', 'Panadería El Buen Pan');
