@@ -31,3 +31,11 @@ CREATE TABLE IF NOT EXISTS COMPRAS (
     FOREIGN KEY (Id_cliente) REFERENCES CLIENTE(Id_cliente),
     FOREIGN KEY (Id_producto) REFERENCES PRODUCTO(Id_producto)
 );
+
+--Sentencia 04:Crear la tabla 'INVENTARIO'
+CREATE TABLE IF NOT EXISTS INVENTARIO (
+    Id_producto INTEGER PRIMARY KEY,
+    Cantidad INTEGER NOT NULL,
+    Estatus TEXT,
+    FOREIGN KEY (Id_producto) REFERENCES PRODUCTO(Id_producto)
+);
