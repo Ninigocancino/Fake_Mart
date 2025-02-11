@@ -18,3 +18,11 @@ VALUES
      ('Jugo de naranja 1L', 30.00, 'Bebidas', 'Jugos Naturales S.A.'),
      ('Yocur natural', 12.00, 'Lácteos', 'Distribuidora Lácteos S.A.'),
      ('Galleta de avena', 18.00, 'Panadería', 'Panadería El Buen Pan');
+
+--Sentencia 03: Insertar proveedores
+INSERT INTO PROVEEDORES(Nombre_proveedor,R_F_C, Telefono_proveedor,Direccion_empresa, Responsable)
+VALUES
+      ('Distribuidora Lácteos S.A.', 'DLSA123456789', '555-1111', 'Calle Lácteos 789', 'Roberto Gómez'),
+      ('Panadrería El Buen Pan', 'PEBP987654321', '555-2222','Avenida Pan 456', 'Laura Martínez'),
+      ('Jugos Naturales S.A.', 'JNSA456789123', '555-333', 'Avenida Jugos 123', 'Carlos Ramírez');
+      
