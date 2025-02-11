@@ -44,3 +44,13 @@ VALUES
       (3, 20, 'Disponible'),
       (4, 40, 'Disponible'),
       (5, 25, 'Disponible'); 
+
+--Sentencia 06: Insertar compras
+INSERT INTO COMPRAS (Id_cliente, Id_producto, Cantidad, Fecha_hora, Subtotal, Monto_total)
+VALUES 
+      (1, 1, 2, '2023-10-10 10:00:00', 51.00, 51.00),
+      (2, 2, 1, '2023-10-10 11:00:00', 15.00, 15.00),
+      (3, 3, 3, '2023-10-10 12:00:00', 90.00, 90.00),
+      (4, 4, 5, '2023-10-10 13:00:00', 90.00, 90.00),
+      (5, 5, 2, '2023-10-10 14:00:00', 36.00, 36.00);
+
