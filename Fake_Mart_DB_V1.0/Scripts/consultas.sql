@@ -14,3 +14,10 @@ FROM COMPRAS co
 JOIN CLIENTE c ON co.Id_cliente = c.Id_cliente
 JOIN PRODUCTO p ON co.Id_producto = p.Id_producto
 WHERE c.Nombre_cliente = 'Juan Perez Ligonio'; 
+
+--Sentencia 04: Obtener los productos suministrados por un proveedor especifico
+SELECT pr.Nombre_proveedor, p.Nombre_producto
+FROM PROVEEDORES_PRODUCTOS PP 
+JOIN PROVEEDORES pr ON pp.Id_proveedor = pr.Id_proveedor
+JOIN PRODUCTO p ON pp.Id_producto = p.Id_producto
+WHERE pr.Nombre_proveedor = 'Distribuidora Lácteos S.A.';
