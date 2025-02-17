@@ -21,3 +21,9 @@ FROM PROVEEDORES_PRODUCTOS PP
 JOIN PROVEEDORES pr ON pp.Id_proveedor = pr.Id_proveedor
 JOIN PRODUCTO p ON pp.Id_producto = p.Id_producto
 WHERE pr.Nombre_proveedor = 'Distribuidora Lácteos S.A.';
+
+--Sentencia 05: Verificar el inventario de un producto especifico
+SELECT p.Nombre_producto, i.Cantidad, i.Estatus
+FROM INVENTARIO i 
+JOIN PRODUCTO p ON i.Id_producto = p.Id_producto
+WHERE p.Nombre_Producto = 'Leche entera 1L'; 
