@@ -9,18 +9,18 @@ Este repositorio contiene proyectos que simulan la gestión de datos en el secto
 Facilitar el aprendizaje de tecnologías de bases de datos y la realización de proyectos de gestión de datos a través de un caso práctico y cercano a la realidad.
 
 ## Estructura del repositorio
-FakeMart/
-├── Fakemart versión 1/
-│   ├── Documentacion/
-│   │   ├── Diseño_conceptual.md
-│   │   ├── Diseño_logico.md
-│   ├── Scripts/
-│   │   ├── consultas.sql
-│   │   ├── fakemart.db
-│   │   ├── tablas.sql
-│   │   ├── insertar_datos.sql
-├── Fakemart versión 2/
-├── README.md
+FakeMart/  
+├── Fakemart versión 1/  
+│   ├── Documentacion/  
+│   │   ├── Diseño_conceptual.md  
+│   │   ├── Diseño_logico.md  
+│   ├── Scripts/  
+│   │   ├── consultas.sql  
+│   │   ├── fakemart.db  
+│   │   ├── tablas.sql  
+│   │   ├── insertar_datos.sql  
+├── Fakemart versión 2/  
+├── README.md  
 
 
 ## Tecnologías 
