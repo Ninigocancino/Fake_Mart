@@ -12,21 +12,18 @@ Los proyectos dentro del repositorio tienen la intención de ser una simulación
 
 ## Estructura del repositorio 
 
-FakeMart  
------Fakemart versión 1  
-     ----Documentacion  
-     ----Diseño_conceptual.md  
-     ----Diseño_logico.md  
-
-
-│   ├── Scripts/
-│   │   ├── consultas.sql
-│   │   ├── fakemart.db
-│   │   ├── tablas.sql
-│   │   ├── insertar_datos.sql
-├── Fakemart versión 2/
-├── README.md
-
+FakeMart/  
+├── Fakemart versión 1/  
+│   ├── Documentacion/  
+│   │   ├── Diseño_conceptual.md  
+│   │   ├── Diseño_logico.md  
+│   ├── Scripts/  
+│   │   ├── consultas.sql  
+│   │   ├── fakemart.db  
+│   │   ├── tablas.sql  
+│   │   ├── insertar_datos.sql  
+├── Fakemart versión 2/  
+├── README.md  
 
 ## Tecnologías 
  Actualmente los proyectos dentro del repositorio hacen uso de las siguientes tecnologías para resolver diferentes problematicas de negocios.
