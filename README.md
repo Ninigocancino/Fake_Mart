@@ -12,13 +12,13 @@ Los proyectos dentro del repositorio tienen la intención de ser una simulación
 
 ## Estructura del repositorio 
 
-FakeMart
------Fakemart versión 1
-     ----Documentacion
-     ----Diseño_conceptual.md
-     ----Diseño_logico.md
+FakeMart  
+-----Fakemart versión 1  
+     ----Documentacion  
+     ----Diseño_conceptual.md  
+     ----Diseño_logico.md  
 
-     
+
 │   ├── Scripts/
 │   │   ├── consultas.sql
 │   │   ├── fakemart.db
