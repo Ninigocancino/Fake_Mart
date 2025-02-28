@@ -3,7 +3,7 @@
 Este repositorio contiene proyectos que simulan la gestión de datos en el sector retail, abordando problemas típicos de negocios de venta al consumidor final. Cada proyecto representa una etapa en el ciclo de vida de un negocio familiar llamado **Fake Mart**, desde su inicio hasta su expansión.
 
 ## Versiones
-- [FakeMart Versión 1](): Primera implementación de una base de datos para Fake Mart.
+- [FakeMart Versión 1](): Primera implementación de una base de datos para el caso de estudio 'Fake Mart'.
 
 ## Objetivo general
 Facilitar el aprendizaje de tecnologías de bases de datos y la realización de proyectos de gestión de datos a través de un caso práctico y cercano a la realidad.
@@ -24,7 +24,7 @@ FakeMart/
 
 
 ## Tecnologías 
- Actualmente los proyectos dentro del repositorio hacen uso de las siguientes tecnologías para resolver diferentes problematicas de negocios.
+ Actualmente los proyectos dentro del repositorio hacen uso de las siguientes tecnologías para resolver diferentes problematicas a las que se enfrenta el negocio en cuestión.
 
 SQLite: Para la implementación de bases de datos relacionales.  
 
