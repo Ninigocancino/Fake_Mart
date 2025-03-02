@@ -60,4 +60,12 @@ Relaciona los proveedores con los productos que suministran.
   - `Id_proveedor`: Identificador del proveedor.
   - `Id_producto`: Identificador del producto.
 
-## Relaciones
+## Relaciones 
+
+1. **CLIENTE - COMPRAS**:
+
+2. **PRODUCTO - COMPRAS**:
+
+3. **PROVEEDORES - PROVEEDORES_PRODUCTOS**:
+
+4. **PRODUCTO - INVENTARIO**:
