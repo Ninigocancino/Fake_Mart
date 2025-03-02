@@ -63,9 +63,17 @@ Relaciona los proveedores con los productos que suministran.
 ## Relaciones 
 
 1. **CLIENTE - COMPRAS**:
+   - Un cliente puede realizar muchas compras.
+   - Una compra está asociada a un solo cliente.
 
 2. **PRODUCTO - COMPRAS**:
+   - Un producto puede estar en muchas compras.
+   - Una compra está asociada a un solo producto.
 
 3. **PROVEEDORES - PROVEEDORES_PRODUCTOS**:
+   - Un proveedor puede suministrar muchos productos.
+   - Un producto puede ser suministrado por muchos proveedores.
 
 4. **PRODUCTO - INVENTARIO**:
+   - Un producto tiene un registro en el inventario.
+   - El inventario está asociado a un solo producto.
